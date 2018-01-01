@@ -1,0 +1,119 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+}
+
+#main {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#myaudio {
+  margin-top: 40px;
+}
+
+#main p {
+  font-family: PT Mono;
+  font-size: 24px;
+}
+
+.emoji {
+  float: right;
+  margin-right: 20px;
+}
+
+#volume {
+  background-color: white;
+  border: none;
+  display: flex;
+}
+
+.artists {
+  margin-top: 10px;
+  margin-bottom: 200px;
+  margin-left: 30px;
+}
+
+.artist {
+  margin-top: 100px;
+}
+
+.artist h1 {
+  font-family: PT Mono;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.artist h2 {
+  font-family: PT Mono;
+  font-size: 26px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+/*#artist_14 h2 {
+  margin-top: 130px;
+}*/
+
+button img {
+  margin-bottom: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+#link {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  #main {
+    margin-top: 20px;
+    /*margin-left: 60px;
+    margin-right: 60px;*/
+  }
+
+  #main p {
+    font-size: 15px;
+  }
+
+  .emoji {
+    float: left;
+    margin-top: 30px;
+  }
+
+  .artists {
+    margin-top: 10px;
+  }
+
+  .artist {
+    margin-top: 60px;
+  }
+
+  .artist h1 {
+    font-size: 30px;
+  }
+
+  .artist h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .name img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .emoji img {
+    width: 60%;
+    height: 60%;
+  }
+}
